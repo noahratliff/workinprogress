@@ -8,7 +8,7 @@ start = default_timer()
 
 duration = (default_timer() - start)
 
-driver = webdriver.Firefox(executable_path="C:\\Users\\peter\\AppData\\Local\\Programs\\Python\\Python36\\selenium\\webdriver\\firefox\\geckodriver.exe")
+driver = webdriver.Firefox(executable_path="INSERT PATH TO GECKO DRIVER")
 
 driver.get("http://va.milesplit.com/articles/226702/vote-who-should-take-over-the-milestat-snapchat-for-milestates")
 x = 0
